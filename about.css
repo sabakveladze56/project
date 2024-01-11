@@ -1,0 +1,262 @@
+.EVERYTHING{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.aboveheader{
+    margin-bottom: 30px;
+    margin-top: 50px;
+   font-size: 35px;
+   display: flex;
+ justify-content: center;
+}
+.aboveheadertwo{
+    margin-bottom: 30px;
+    margin-top: 50px;
+   font-size: 35px;
+   display: flex;
+ justify-content: center;
+}
+h1{
+    margin-top: 20px;
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+}
+.topdiv{
+    display: flex;
+    justify-content: center;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+
+}
+.navdiv1{
+    border-left: 1px black solid;
+    /* background-color: blue; */
+    height: 50px;
+    width: 150px;
+}
+.navdiv2{
+    border-left: 1px black solid;
+    /* background-color: rgb(55, 255, 0); */
+    height: 50px;
+    width: 150px;
+}
+.navdiv3{
+    border-left: 1px black solid;
+    /* background-color: rgb(117, 180, 22); */
+    height: 50px;
+    width: 150px;
+}
+.navdiv4{
+    border-left: 1px black solid;
+    /* background-color: rgb(170, 255, 0); */
+    height: 50px;
+    width: 150px;
+}.navdiv5{
+    border-left: 1px black solid;
+    /* background-color: rgb(255, 0, 0); */
+    height: 50px;
+    width: 150px;
+}.navdiv6{
+    border-left: 1px black solid;
+    /* background-color: rgb(237, 237, 245); */
+    height: 50px;
+    width: 120px;
+    border-right: 1px black solid;
+}
+.listone{
+    list-style-type: none;
+     
+}
+.listtwo{
+    list-style-type: none;
+}
+.listthree{
+    list-style-type: none;
+}
+.listfour{
+    list-style-type: none;
+}
+.aone{
+    text-decoration:none;
+  
+}
+.atwo{
+    text-decoration:none;
+    color: blue;
+}
+.athree{
+    text-decoration:none;
+}
+.afour{
+    text-decoration:none;
+}
+.aone:hover{
+    text-decoration:none;
+    color: blue;
+}
+.atwo:hover{
+    text-decoration:none;
+    color: blue;
+}
+.athree:hover{
+    text-decoration:none;
+    color: blue;
+}
+.afour:hover{
+    text-decoration:none;
+    color: blue;
+}
+.navdiv6{
+    display: flex;
+}
+.glassguysrc{
+    height: 100%;
+    width: 100%;
+}
+.wholediv{
+    height: 130vh;
+    width: 65%;
+    border: 1px solid black;
+}
+.outsidewhole{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv{
+    border-bottom: 1px solid black;
+    border-right:  1px solid black; 
+    height: 55%;
+}
+.navdiv6{
+    display: flex;
+    align-items: center;
+}
+.navsixonesrc{
+    height: 60%;
+    width: 25%;
+}
+.navsixtwosrc{
+    height: 60%;
+    width: 25%;
+}
+.navsixthreesrc{
+    height: 60%;
+    width: 25%;
+}
+.navsixfoursrc{
+    height: 60%;
+    width: 25%;
+}
+.glassguyhtwo{
+    margin-left: 30px;
+    font-size: 27px;
+}
+.glassguyspanone{
+    margin-left: 30px;
+    font-size: 19px;
+}
+.glassguyspantwo{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 19px;
+}
+.glassmantxt{
+    width: 85%;
+}
+
+.belowevertthingblog{
+    height: 68vh;
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+.arrow{
+height: 100px;
+width: 40px;
+}
+.arrowimg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contctme{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contacthtwo{
+
+    font-size: 35px;
+    width: 100%;
+}
+.name{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+.emaill{
+    display: flex;
+    justify-content: center;
+}
+.message{
+    display: flex;
+    justify-content: center;
+}
+.nameinputone{
+    width: 100%;
+    height: 5vh;
+}
+.nameone{
+    width: 25%;
+    height: 5vh;
+}
+.nameinputtwo{
+    width: 100%;
+    height: 5vh;
+}
+.nametwo{
+    width: 25%;
+    height: 5vh;
+}
+.emaillinputone{
+    width: 100%;
+    height: 5vh;
+}
+.emaillone{
+    margin-top: 30px;
+    width: 52.5%;
+    height: 5vh;
+}
+.messageinputone{
+    width: 100%;
+    height: 5vh;
+}
+.messageone{
+    margin-top: 30px;
+    width: 52.5%;
+    height: 5vh;
+}
+.submitbtn{
+    background-color: blueviolet;
+    border: none;
+    height: 8vh;
+width: 15%;
+}
+.submitdiv{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitbtna{
+    color: white;
+    text-decoration: none;
+}
+.contacthtwotwo{
+    margin-left: 400px;
+}
