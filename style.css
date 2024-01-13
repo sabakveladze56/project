@@ -633,10 +633,15 @@ font-size: 27px;
     font-size: 21px;
 }
 .moreposts{
+    color: white;
     height: 45px;
     width: 160px;
     background-color: blueviolet;
     border: none;
+}
+.moreposts:hover{
+    background-color: black;
+    color: white;
 }
 .morepostsa{
     color: white;

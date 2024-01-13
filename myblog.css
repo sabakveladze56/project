@@ -168,22 +168,361 @@ h1{
     width: 60%;
 }
 .everyblogever{
+    margin-bottom: 60px;
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    
 width: 100%;
-height: 300vh;
+/* height: 300vh; */
 
 }
 .insideeveryblog{
     height: 100%;
     width: 65%;
-    display: grid;
-    grid-template-columns:
-    "tokyo dvd"
-    "amsterdam terkey"
-    "france fiction"
-    "podcast pocorn"
-    "artist questions"
-    "items pizza" ; 
+   display: flex;
+   gap: 40px;
+   
+}
+
+
+/* "podcast pocorn"
+"artist questions"
+"items pizza" */
+.outokyo{
+height: 75vh;
+    width: 100%;
+    grid-area: tokyo;
+    border: 1px solid black;
+}
+.intokyosrc{
+    width: 100%;
+}
+.tokyoh{
+    font-size: 25px;
+}
+.tokyospan{
+font-size: 19px;
+}
+.insidetokyotxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.oudvd{
+    height: 75vh;
+    width: 100%;
+    grid-area: dvd;
+    border: 1px solid black;
+}
+.indvdsrc{
+    width: 100%;
+}
+.dvdh{
+    font-size: 25px;
+}
+.dvdspan{
+    font-size: 19px;
+}
+.insidedvdtxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.ouamsterdam{
+    margin-top: 40px;
+    height: 75vh;
+    width: 100%;
+    grid-area: amsterdam;
+    border: 1px solid black;
+}
+.inamsterdamsrc{
+    width: 100%;
+}
+.amsterdamh{
+    font-size: 25px;
+}
+.amsterdamspan{
+    font-size: 19px;
+}
+.insideamsterdamtxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.outurkey{
+    margin-top: 40px;
+    height: 83vh;
+    width: 100%;
+    grid-area: turkey;
+    border: 1px solid black;
+}
+.inturkeysrc{
+    width: 100%;
+}
+.turkeyh{
+    font-size: 25px;
+}
+.turkeyspan{
+    font-size: 19px;
+}
+.insideturkeytxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.ouparis{
+    margin-top: 40px;
+    height: 78vh;
+    width: 100%;
+    grid-area: paris;
+    border: 1px solid black;
+}
+.inparissrc{
+    width: 100%;
+}
+.parish{
+    font-size: 25px;
+}
+.parisspan{
+    font-size: 19px;
+}
+.insideparistxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.oufiction{
+    margin-top: 40px;
+    height: 75vh;
+    width: 100%;
+    grid-area: fiction;
+    border: 1px solid black;
+}
+.infictionsrc{
+    width: 100%;
+}
+.fictionh{
+    font-size: 25px;
+}
+.fictionspan{
+    font-size: 19px;
+}
+.insidefictiontxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.oneinsideeveryblog{
+    width: 50%;
+}
+.twoinsideeveryblog{
+    width: 50%;
+}
+.oupodcast{
+    margin-top: 40px;
+    height: 85vh;
+    width: 100%;
+    grid-area: fiction;
+    border: 1px solid black;
+}
+.inpodcastsrc{
+    width: 100%;
+}
+.podcasth{
+    font-size: 25px;
+}
+.podcastspan{
+    font-size: 19px;
+}
+.insidepodcasttxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.oupopcorn{
+    margin-top: 40px;
+    height: 75vh;
+    width: 100%;
+    grid-area: fiction;
+    border: 1px solid black;
+}
+.inpopcornsrc{
+    width: 100%;
+}
+.popcornh{
+    font-size: 25px;
+}
+.popcornspan{
+    font-size: 19px;
+}
+.insidepopcorntxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.ouartist{
+    margin-top: 40px;
+    height: 80vh;
+    width: 100%;
+    grid-area: fiction;
+    border: 1px solid black;
+}
+.inartistsrc{
+    width: 100%;
+}
+.artisth{
+    font-size: 25px;
+}
+.artistspan{
+    font-size: 19px;
+}
+.insideartisttxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.ouitems{
+    margin-top: 40px;
+    height: 75vh;
+    width: 100%;
+    grid-area: fiction;
+    border: 1px solid black;
+}
+.initemssrc{
+    width: 100%;
+}
+.itemsh{
+    font-size: 25px;
+}
+.itemsspan{
+    font-size: 19px;
+}
+.insideitemstxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.oupassion{
+    margin-top: 40px;
+    height: 75vh;
+    width: 100%;
+    grid-area: fiction;
+    border: 1px solid black;
+}
+.inpassionsrc{
+    width: 100%;
+}
+.passionh{
+    font-size: 25px;
+}
+.passionspan{
+    font-size: 19px;
+}
+.insidepassiontxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.oupizza{
+    margin-top: 40px;
+    height: 75vh;
+    width: 100%;
+    grid-area: fiction;
+    border: 1px solid black;
+}
+.inpizzasrc{
+    width: 100%;
+}
+.pizzah{
+    font-size: 25px;
+}
+.pizzaspan{
+    font-size: 19px;
+}
+.insidepizzatxt{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.belowevertthingblog{
+    margin-top: 100px;
+    height: 68vh;
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+.arrow{
+height: 100px;
+width: 40px;
+}
+.arrowimg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contctme{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contacthtwo{
+
+    font-size: 35px;
+    width: 100%;
+}
+.name{
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+.emaill{
+    display: flex;
+    justify-content: center;
+}
+.message{
+    display: flex;
+    justify-content: center;
+}
+.nameinputone{
+    width: 100%;
+    height: 5vh;
+}
+.nameone{
+    width: 25%;
+    height: 5vh;
+}
+.nameinputtwo{
+    width: 100%;
+    height: 5vh;
+}
+.nametwo{
+    width: 25%;
+    height: 5vh;
+}
+.emaillinputone{
+    width: 100%;
+    height: 5vh;
+}
+.emaillone{
+    margin-top: 30px;
+    width: 52.5%;
+    height: 5vh;
+}
+.messageinputone{
+    width: 100%;
+    height: 5vh;
+}
+.messageone{
+    margin-top: 30px;
+    width: 52.5%;
+    height: 5vh;
+}
+.submitbtn{
+    background-color: blueviolet;
+    border: none;
+    height: 8vh;
+width: 15%;
+}
+.submitdiv{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitbtna{
+    color: white;
+    text-decoration: none;
+}
+.contacthtwotwo{
+    margin-left: 400px;
 }
