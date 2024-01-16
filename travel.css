@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    padding:0 ;
 }
 .EVERYTHING{
     display: flex;
@@ -119,12 +119,13 @@ h1{
 }
 .atwo{
     text-decoration:none;
-    color: blue;
+    
 }
 .athree{
     text-decoration:none;
 }
 .afour{
+
     text-decoration:none;
 }
 .aone:hover{
@@ -146,27 +147,6 @@ h1{
 .navdiv6{
     display: flex;
 }
-.glassguysrc{
-    height: 100%;
-    width: 100%;
-}
-.wholediv{
-    height: 130vh;
-    width: 65%;
-    border: 1px solid black;
-}
-.outsidewhole{
-    width: 100%;
-    height: 150vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.imgdiv{
-    border-bottom: 1px solid black;
-    border-right:  1px solid black; 
-    height: 55%;
-}
 .navdiv6{
     display: flex;
     align-items: center;
@@ -187,23 +167,172 @@ h1{
     height: 60%;
     width: 25%;
 }
-.glassguyhtwo{
+.secondnav{
+   
+ width: 100%;
+}
+.secondnavdivtwo{
+    margin-left:18% ;
+    font-size: 15px;
+    width: 90px;
+}
+.secondnavdiv{
+   font-size: 15px;
+   width: 90px;
+}
+.ousecondnavdiv{
+    margin-top: 50px;
+    display: flex;
+}
+.secondnaone:hover{
+    color: blue;
+}
+.secondnatwo:hover{
+    color: blue;
+}
+.secondnathree:hover{
+    color: blue;
+}
+.secondnafour:hover{
+    color: blue;
+}
+.secondli{
+   width: 100%;
+    list-style-type: none;
+}
+.secondnaone{
+    color: black;
+    text-decoration: none;
+}
+.secondnatwo{
+    color: blue;
+    text-decoration: none;
+}
+.secondnathree{
+    color: black;
+    text-decoration: none;
+}
+.secondnafour{
+    color: black;
+    text-decoration: none;
+}
+.widetokyo{
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+    height: 55vh;
+}
+.insideeverybox{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.everybox{
+    height: 250vh;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.widetokyosrc{
+    width: 100%;
+    height: 100%;
+}
+.widetokyoimg{
+    width: 50%;
+    height: 100%;
+}
+.widetokyotxt{
+    margin-right: 10px;
     margin-left: 30px;
-    font-size: 27px;
+    width: 45%;
 }
-.glassguyspanone{
+.widetokyoh{
+    margin-bottom: 20px;
+    font-size: 33px;
+}
+.widetokyospan{
+font-size: 19px;
+}
+.wideamsterdam{
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+    height: 55vh;
+}
+.wideamsterdamsrc{
+    width: 100%;
+    height: 100%;
+}
+.wideamsterdamimg{
+    width: 50%;
+    height: 100%;
+}
+.wideamsterdamtxt{
+    margin-right: 10px;
     margin-left: 30px;
-    font-size: 19px;
+    width: 45%;
 }
-.glassguyspantwo{
-    margin-top: 20px;
+.wideamsterdamh{
+    margin-bottom: 20px;
+    font-size: 33px;
+}
+.wideamsterdamspan{
+font-size: 19px;
+}
+.wideturkey{
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+    height: 55vh;
+}
+.wideturkeysrc{
+    width: 100%;
+    height: 100%;
+}
+.wideturkeyimg{
+    width: 50%;
+    height: 100%;
+}
+.wideturkeytxt{
+    margin-right: 10px;
     margin-left: 30px;
-    font-size: 19px;
+    width: 45%;
 }
-.glassmantxt{
-    width: 85%;
+.wideturkeyh{
+    margin-bottom: 20px;
+    font-size: 33px;
 }
-
+.wideturkeyspan{
+font-size: 19px;
+}
+.wideparis{
+    display: flex;
+    border: 1px solid black;
+    width: 90%;
+    height: 55vh;
+}
+.wideparissrc{
+    width: 100%;
+    height: 100%;
+}
+.wideparisimg{
+    width: 50%;
+    height: 100%;
+}
+.wideparistxt{
+    margin-right: 10px;
+    margin-left: 30px;
+    width: 45%;
+}
+.wideparish{
+    margin-bottom: 20px;
+    font-size: 33px;
+}
+.wideparisspan{
+font-size: 19px;
+}
 .belowevertthingblog{
     height: 68vh;
     margin-top: 20px;

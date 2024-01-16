@@ -1,3 +1,6 @@
+*{
+    padding:0 ;
+}
 .EVERYTHING{
     display: flex;
     justify-content: center;
@@ -30,6 +33,22 @@ h1{
     border-bottom: 1px black solid;
 
 }
+.navdiv1 > nav >ul >li{
+    display: flex;
+    justify-content: center;
+}
+.navdiv2 > nav >ul >li{
+    display: flex;
+    justify-content: center;
+}
+.navdiv3 > nav >ul >li{
+    display: flex;
+    justify-content: center;
+}
+.navdiv4 > nav >ul >li{
+    display: flex;
+    justify-content: center;
+}
 .navdiv1{
     border-left: 1px black solid;
     /* background-color: blue; */
@@ -54,6 +73,7 @@ h1{
     height: 50px;
     width: 150px;
 }.navdiv5{
+    display: flex;
     border-left: 1px black solid;
     /* background-color: rgb(255, 0, 0); */
     height: 50px;
@@ -64,6 +84,22 @@ h1{
     height: 50px;
     width: 120px;
     border-right: 1px black solid;
+}
+.searchsrc{
+    width: 100%;
+    height: 70%;
+}
+.searchimg{
+    margin-top: 15px;
+    width: 30%;
+}
+.searchnav{
+    margin-left: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    height: 90%;
+    width: 100%;
 }
 .listone{
     list-style-type: none;
@@ -137,12 +173,30 @@ h1{
    
  width: 100%;
 }
+.secondnavdivtwo{
+    margin-left:18% ;
+    font-size: 15px;
+    width: 90px;
+}
 .secondnavdiv{
-   
-   width: 140px;
+   font-size: 15px;
+   width: 90px;
 }
 .ousecondnavdiv{
+    margin-top: 50px;
     display: flex;
+}
+.secondnaone:hover{
+    color: blue;
+}
+.secondnatwo:hover{
+    color: blue;
+}
+.secondnathree:hover{
+    color: blue;
+}
+.secondnafour:hover{
+    color: blue;
 }
 .secondli{
    width: 100%;

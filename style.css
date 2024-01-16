@@ -1,3 +1,6 @@
+*{
+    padding: 0px;
+}
 .EVERYTHING{
     display: flex;
     justify-content: center;
@@ -30,6 +33,22 @@ h1{
     border-bottom: 1px black solid;
 
 }
+.navdiv1 > nav >ul >li{
+    display: flex;
+    justify-content: center;
+}
+.navdiv2 > nav >ul >li{
+    display: flex;
+    justify-content: center;
+}
+.navdiv3 > nav >ul >li{
+    display: flex;
+    justify-content: center;
+}
+.navdiv4 > nav >ul >li{
+    display: flex;
+    justify-content: center;
+}
 .navdiv1{
     border-left: 1px black solid;
     /* background-color: blue; */
@@ -54,6 +73,7 @@ h1{
     height: 50px;
     width: 150px;
 }.navdiv5{
+    display: flex;
     border-left: 1px black solid;
     /* background-color: rgb(255, 0, 0); */
     height: 50px;
@@ -64,6 +84,21 @@ h1{
     height: 50px;
     width: 120px;
     border-right: 1px black solid;
+}
+.searchsrc{
+    width: 100%;
+    height: 70%;
+}
+.searchimg{
+    margin-top: 15px;
+    width: 30%;
+}
+.searchnav{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    height: 90%;
+    width: 100%;
 }
 .listone{
     list-style-type: none;
@@ -441,6 +476,9 @@ gap: 25px;
     margin-top: 15px;
     display: flex;
     gap: 20px;
+}
+.textone{
+    outline: none;
 }
 .enteremail{
    color: red;
